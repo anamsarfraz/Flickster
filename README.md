@@ -38,10 +38,12 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories in potrait mode:
+Link: http://i.imgur.com/rhmIMvk.gi 
 
 <img src='http://i.imgur.com/rhmIMvk.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Here's a walkthrough of implemented user stories in landscape mode:
+Link: http://i.imgur.com/PH0n4op.gif
 
 <img src='http://i.imgur.com/PH0n4op.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
