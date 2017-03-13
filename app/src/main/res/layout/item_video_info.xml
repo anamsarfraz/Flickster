@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivVideoImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/image_content_desc"
+        tools:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvVideoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:text="R.E.M. - Losing My Religion (Official Music Video)"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/ivVideoImage" />
+
+    <TextView
+        android:id="@+id/tvChannelTitle"
+        tools:text="remhq"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvVideoTitle"
+        android:layout_toEndOf="@+id/ivVideoImage" />
+    <TextView
+        android:id="@+id/tvPulishDate"
+        tools:text="Published 3 hours ago"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvChannelTitle"
+        android:layout_toEndOf="@+id/ivVideoImage" />
+</RelativeLayout>

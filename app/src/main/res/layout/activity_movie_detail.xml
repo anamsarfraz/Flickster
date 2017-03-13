@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codepath.flickster.activities.MovieDetailActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/ivMovieDetailImage"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            tools:src="@drawable/movie_reel_land"
+            />
+        <ImageView
+            android:id="@+id/ivButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/play_icon_detail" />
+        <TextView
+            android:id="@+id/tvDetailTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HardCore Henry"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_below="@+id/ivMovieDetailImage"
+            android:layout_alignStart="@+id/ivMovieDetailImage"
+            android:layout_marginTop="26dp"
+            />
+        <TextView
+            android:id="@+id/tvReleaseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Release Date: 2017-02-08"
+            android:layout_below="@+id/tvDetailTitle"
+            android:layout_alignStart="@+id/tvDetailTitle"
+            android:layout_marginTop="16dp"
+            />
+        <RatingBar
+            android:id="@+id/rbMovieRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="10"
+            android:stepSize="0.1"
+            android:rating="2.0"
+            style="?android:attr/ratingBarStyleSmall"
+            android:progressTint="@color/duskYellow"
+            android:secondaryProgressTint="@color/duskYellow"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/tvReleaseDate"
+            android:layout_alignStart="@+id/tvReleaseDate" />
+        <TextView
+            android:id="@+id/tvSynopsis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When a wounded Christian Grey tries to entice a cautious Ana Steele back into his life, she demands a new arrangement before she will give him another chance. As the two begin to build trust and find stability, shadowy figures from Christian’s past start to circle the couple, determined to destroy their hopes for a future together."
+            android:layout_below="@+id/rbMovieRating"
+            android:layout_alignStart="@+id/rbMovieRating"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"/>
+    </RelativeLayout>
+</ScrollView>
+
