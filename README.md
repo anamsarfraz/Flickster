@@ -38,7 +38,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories in potrait mode:
-Link: http://i.imgur.com/rhmIMvk.gi 
+Link: http://i.imgur.com/rhmIMvk.gif 
 
 <img src='http://i.imgur.com/rhmIMvk.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
